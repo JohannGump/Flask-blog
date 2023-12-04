@@ -23,7 +23,7 @@ class User(db.Model, UserMixin):
                 "exp": datetime.utcnow() + timedelta(seconds=expires_sec)
             },
             current_app.config['SECRET_KEY'],
-            algorcurrent_appithm="HS256"
+            algorithm="HS256"
         )
         return reset_token
     
