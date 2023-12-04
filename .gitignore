@@ -1,0 +1,18 @@
+# Ignorer les fichiers temporaires
+temp/
+__pycache__/
+
+# Ignorer les fichiers log
+*.log
+
+# Ignorer les fichiers de configuration spécifiques
+flaskblog/config.py
+
+# Ignore base de données
+instance/
+
+# Ignore le virtual environnement
+pyenv/
+
+# Ignore autre
+mail-demo.py
